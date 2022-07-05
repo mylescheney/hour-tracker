@@ -29,12 +29,18 @@ function App() {
       </div>
       <div id='projectsSection'>
         <div className='sectionHeader'>
-          <h2 className='sectionHeaderText'>Journey Projects</h2>
+          <h2 className='sectionHeaderText'>My Projects</h2>
         </div>
         <div className='sectionContent'>
           <div className='projectRow'>
-            <ProjectCard title='Hamilton Tribute' />
-            <ProjectCard title='Deadly Austrailia' />
+            <ProjectCard title='Hour Tracker' />
+            <ProjectCard title='Trainer Pal' notFirst={true} />
+            <ProjectCard title='Random Quote Machine' notFirst={true} />
+            <ProjectCard title='Hamilton Tribute' notFirst={true} />
+          </div>
+          <div className='projectRow'>
+            <ProjectCard title='Avengers Careers' />
+            <ProjectCard title='Deadly Austrailia' notFirst={true} />
           </div>
         </div>
       </div>

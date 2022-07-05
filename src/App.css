@@ -144,12 +144,20 @@ body {
 .projectRow {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     padding: 2.5%;
 }
 .projectCard {
     background-color: var(--dark-grey);
     box-shadow: 0px 0px 1px 1px var(--main-purple);
-    width: 20vw;
+    width: 22vw;
+}
+.notFirst {
+    margin-left: 3vw;
+}
+.cardImage {
+    height: 30vh;
+    width: 18vw;
 }
 .cardTitle {
     margin: 0;
