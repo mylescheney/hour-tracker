@@ -139,6 +139,17 @@ body {
 }
 .sectionContent {
     height: 80vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+
+.aboutMeCardsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutMeCard {
+    width: 40vw;
 }
 
 .projectRow {
@@ -156,8 +167,8 @@ body {
     margin-left: 3vw;
 }
 .cardImage {
-    height: 30vh;
-    width: 18vw;
+    height: 20vh;
+    width: 100%;
 }
 .cardTitle {
     margin: 0;

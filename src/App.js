@@ -24,7 +24,19 @@ function App() {
           <h2 className='sectionHeaderText'>About Me</h2>
         </div>
         <div className='sectionContent'>
-
+          <div className='aboutMeCardsDiv'>
+            <div className='aboutMeCard'>
+              <h3>My Background</h3>
+              <p>I first started programming when I was in middled school, using websites such as Codecademy.</p>
+              <p>My high school offered various STEM classes, and I took all the prograaming-related ones.</p>
+              <p>I rediscovered my love for programming during the pandemic, and after a few months building projects on my own in my free time, I decided I wanted to develop my skills further.</p>
+              <p>I completed Nucamp's Full Stack Web &#38; Mobile Development bootcamp, and am ready to apply my skills at a professinal level.</p>
+              <p></p>
+            </div>
+            <div className='aboutMeCard'>
+              <h3>My Skills</h3>
+            </div>
+          </div>
         </div>
       </div>
       <div id='projectsSection'>
